@@ -3,5 +3,4 @@ CONTEC DIO-0808LY-USBを利用してUnityにボタンをつなげるサンプル
 
 ボタン0を押すとCUBE、ボタン1を押すとSPHEREが飛び出します。
 
-![DSC04972](https://user-images.githubusercontent.com/529150/57574779-44c36900-747a-11e9-837d-910726a72b93.jpg)
-
+![DSC04983](https://user-images.githubusercontent.com/529150/57965338-efa5bc80-797d-11e9-8a81-5374bd96ca94.JPG)
