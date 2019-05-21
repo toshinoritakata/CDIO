@@ -13,9 +13,12 @@ public class CdioTest : MonoBehaviour
     void Start()
     {
         _cdio = new Cdio();
-        _cdio.Init("DIO000", out _id);
 
-        StartCoroutine(Spawn());
+        var res = _cdio.Init("DIO000", out _id);
+        if (res == (int)CdioConst.DIO_ERR_SUCCESS)
+        {
+            StartCoroutine(Spawn());
+        }
     }
 
     IEnumerator Spawn()
